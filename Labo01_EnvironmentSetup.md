@@ -11,43 +11,61 @@ If you have opted for a graphical installation, provide screenshots and describe
 ### Cloud cmd line interface - AWS Cli
 
 ```
-//TODO all commands used and the results obtained
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target /
+------
+aws --version
+aws-cli/2.15.39 Python/3.11.8 Darwin/23.4.0 exe/x86_64 prompt/off
 ```
 
 ### IDE - Intellij
 
 ```
-//TODO all commands used and the results obtained
+Used the graphical installation via ToolBox : Vs:JetBrains Toolbox 2.3.0.30876, macOS 14.4.1, arm64
+Intellij Vs: 2024.1
 ```
 
 ### Containers Engins - Docker
 
 ```
-//TODO all commands used and the results obtained
+docker --version
+Docker version 25.0.3, build 4debf41
 ```
 
 ### Versioning - Git + Git flow
 
 ```
-//TODO all commands used and the results obtained
+git --version
+git version 2.44.0
+------
+git flow version
+1.12.3 (AVH Edition)
 ```
 
 ### IDE Plugin - Docker plugin for IntelliJ
 
 ```
-//TODO all commands used and the results obtained
+Used the graphical installation for Docker plugin : 
+Vs: bundled 241.14494.240
 ```
 
 ### Development Kit - JDK
 
 ```
-//TODO all commands used and the results obtained
+java --version
+openjdk 20.0.1 2023-04-18
+OpenJDK Runtime Environment (build 20.0.1+9-29)
+OpenJDK 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
 ```
 
 ### Package manager - Maven
 
 ```
-//TODO all commands used and the results obtained
+mvn --version
+Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
+Java version: 21.0.2, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
+Default locale: fr_CH, platform encoding: UTF-8
+OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
 ```
 
 ## Schema
