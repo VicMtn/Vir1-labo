@@ -11,9 +11,9 @@ If you have opted for a graphical installation, provide screenshots and describe
 ### Cloud cmd line interface - AWS Cli
 
 ```
-curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target /
+> curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target /
 ------
-aws --version
+> aws --version
 aws-cli/2.15.39 Python/3.11.8 Darwin/23.4.0 exe/x86_64 prompt/off
 ```
 
@@ -27,17 +27,17 @@ Intellij Vs: 2024.1
 ### Containers Engins - Docker
 
 ```
-docker --version
+> docker --version
 Docker version 25.0.3, build 4debf41
 ```
 
 ### Versioning - Git + Git flow
 
 ```
-git --version
+> git --version
 git version 2.44.0
 ------
-git flow version
+> git flow version
 1.12.3 (AVH Edition)
 ```
 
@@ -51,16 +51,35 @@ Vs: bundled 241.14494.240
 ### Development Kit - JDK
 
 ```
-java --version
+> java --version
 openjdk 20.0.1 2023-04-18
 OpenJDK Runtime Environment (build 20.0.1+9-29)
 OpenJDK 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
+```
+So add to redo the installation of the right version of Java
+
+```
+Check the JMV installed : 
+> ls /Users/your_user/Library/Java/JavaVirtualMachines/
+ jbr-17.0.7 jdk-20.0.1
+```
+Then needed to export the JAVA_HOME
+```
+Check the version installed : actually 20.0.1
+> Export the JAVA_HOME : export JAVA_HOME=/Users/your_user/Library/Java/JavaVirtualMachines/jbr-17.0.7/Contents/Home
+```
+Then check the version
+```
+> java --version 
+java 17.0.11 2024-04-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.11+7-LTS-207)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.11+7-LTS-207, mixed mode, sharing)
 ```
 
 ### Package manager - Maven
 
 ```
-mvn --version
+> mvn --version
 Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
 Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
 Java version: 21.0.2, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home
