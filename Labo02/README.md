@@ -12,7 +12,7 @@ In this lab, we'll be taking the application we're going to evolve into our own 
 * [Maven Doc](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html#build-the-project)
 
 ```bash
-//TODO
+mvn package
 ```
 
 * What operation does maven perform ?
