@@ -76,6 +76,12 @@ Go to localhost:8080
 ```bash
 "in the root of the project"
 mvn spring-boot:run
+
+[Update]
+"Running only 'mvn spripring-boot:run' use the default maven configuration
+Instead we should run :"
+mvnw spring-boot:run
+"Wich use the maven wrapper and the configuration in the folder files"
 ```
 
 ---
