@@ -24,7 +24,7 @@ Used the graphical installation via ToolBox : Vs:JetBrains Toolbox 2.3.0.30876, 
 Intellij Vs: 2024.1
 ```
 
-### Containers Engins - Docker
+### Containers Engine - Docker
 
 ```
 > docker --version

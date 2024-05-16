@@ -115,7 +115,7 @@ Looks like the three layers are implemented. (User interface, Business logic, Da
 Docker will probably help us to save the data, and to deploy the application on a server.
 ```
 
-* Try to list the tasks to be carried out to obtain two thirds, one hosting the application part locally and the second third using Docker for the database engine.
+* Try to list the tasks to be carried out to obtain two tiers, one hosting the application part locally and the second tier using Docker for the database engine.
 
 ```
 - Create a Docker container for the database engine
