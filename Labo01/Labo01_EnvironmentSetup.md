@@ -94,7 +94,7 @@ Show your development environment, mentioning all the components in the stack.
 Identify the links between components.
 
 ```
-//TODO Schema
+find th file in the folder 
 ```
 
 ## Analysis
