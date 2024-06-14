@@ -16,11 +16,16 @@ services:
         condition: service_healthy
     environment:
       - POSTGRES_URL=jdbc:postgresql://db:5432/vir-macbook
+    networks:
+      - backend
+
   db:
     image: postgres
     restart: always
     volumes:
       - db-data:/var/lib/postgresql/data
+    networks:
+      - backend
     environment:
       - POSTGRES_DB=vir-macbook
       - POSTGRES_USER=vir-macbook
